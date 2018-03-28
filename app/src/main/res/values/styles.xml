@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/application_theme_color</item>
+        <item name="colorPrimaryDark">@color/application_theme_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="EasyBar">
+        <attr name="title" format="string" />
+        <attr name="title_size" format="dimension" />
+        <attr name="title_color" format="color" />
+        <attr name="left_icon" format="reference" />
+        <attr name="right_icon" format="reference" />
+        <attr name="icon_size" format="dimension" />
+        <attr name="icon_margin" format="dimension" />
+        <attr name="left_text" format="string" />
+        <attr name="right_text" format="string" />
+        <attr name="displayMode">
+            <enum name="ICON" value="0" />
+            <enum name="TEXT" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="RichText">
+        <attr name="drawable_src" />
+        <attr name="drawable_width" />
+        <attr name="drawable_height" />
+        <attr name="drawable_location" />
+    </declare-styleable>
+
+    <declare-styleable name="LoadingView">
+        <attr name="loadingText" format="string|reference"/>
+        <attr name="loadingTextAppearance" format="reference"/>
+        <attr name="delay" format="integer|reference"/>
+    </declare-styleable>
+</resources>
